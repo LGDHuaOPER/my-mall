@@ -1,0 +1,233 @@
+
+/* 第一部分  导航区   */
+.navigation-area{ 
+height: 35px;
+background-color: #1369C0;
+}
+
+/* 公共类名  */
+.common{ 
+    width: 1020px;
+    height: 100%;
+    margin:0 auto;
+}
+
+@font-face{
+        font-family: "imooc-icon";
+        src: url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
+        src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype")
+             ,url("../fonts/icomoon.woff") format("woff")
+             ,url("../fonts/icomoon.ttf") format("truetype")
+             ,url("../fonts/icomoon.svg") format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+.imooc-icon{
+        font-family: "imooc-icon";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #F8B600;
+    }
+
+/*左侧  总目录 */
+.categories{ 
+width: 210px;
+height: 35px;
+line-height: 35px;
+color: #fff;
+font-family: "Microsoft Yahei";
+font-size: 16px;
+text-align: center;
+font-weight: 600;
+letter-spacing:3px;
+cursor: pointer;
+}
+
+.categories span{
+	position: relative;
+top: 5px;
+}
+
+/*右侧   导航 */
+.navigation{ 
+width: 810px;
+height: 35px;
+}
+
+.navigation li{ 
+width: 100px;
+height: 35px;
+float: left;
+margin-right: 15px;
+text-align: center;
+color: #fff;
+font-family: "Microsoft Yahei";
+font-size: 15px;
+line-height: 35px;
+border-radius: 5px 5px 0 0;
+letter-spacing: 2px;
+}
+
+.navigation li a{ 
+display: block;
+color: #fff;
+font-family: "Microsoft Yahei";
+font-size: 15px;
+line-height: 35px;
+border-radius: 5px 5px 0 0;
+}
+
+.navigation .active,.navigation li:hover{ 
+background:#4593FD; 
+}
+
+
+
+/* 第二部分  商品详细列表与轮播 */
+
+
+/* 第二部分左侧    商品详细列表 */
+.second-list{
+ width: 210px;
+ height: 335px;
+ position: relative;
+ display:none;
+ z-index:3;
+}
+
+/* 商品详细列表 */
+.second-list li{ 
+background-color: #4593FD;
+border-bottom: #3487F2 solid 1px;
+}
+
+.second-list li>a{ 
+height: 31.4px;
+width: 197px;
+border-left: 1px solid  #4593FD;
+padding: 5px 0 0 12px;
+text-indent: 3px;
+display: block;
+color: #fff;
+}
+
+.second-list li:hover{ 
+background-color:#fff;
+ }
+
+
+.second-list li .s-icon{ 
+    width: 24px;
+    height: 31.4px;
+    display: block;
+    float: left;
+ background-image: url("../images/s-icon.png");
+ margin-top: -4px;
+}
+
+.second-list li>a>span{ 
+    font-family: "imooc-icon";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #Fff;
+        float: right;
+        padding-right: 10px;
+}
+
+
+
+/*第二部分右侧    轮播 */
+
+.second-pic{
+width: 810px;
+height: 330px;
+margin-bottom:10px;
+}
+
+#picBox{
+width: 810px;
+height: 325px;
+}
+
+/* 第二部分左侧    商品详细列表 hover */
+
+.lihover{ 
+width: 810px;
+min-height: 336px;
+display: none;
+position: absolute;
+top: 0px;
+left: 210px;
+z-index: 20;
+background-color:#fff;
+border-right: 1px solid #4593FD;
+border-bottom: 1px solid #4593FD;
+}
+
+.lihover-left{ 
+width: 550px;
+min-height: 335px;
+}
+
+.lihover-left div{
+    height: 30px;
+    width: 550px;
+    margin-top: 5px;
+}
+
+.lihover-left div span a{
+    display: inline-block;
+    padding: 0 8px;
+    color: #656565;
+}
+
+.lihover-left-head{ 
+color:#0002AB;
+font-weight: 550;
+font-size: 14px;
+font-family: "Microsoft Yahei";
+position: relative;
+top: -1.5px;
+left: 12px;
+padding-right: 15px;
+}
+
+
+.lihover-left-head span{ 
+  font-family: "imooc-icon";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #4B88DA;
+        display: inline-block;
+        font-weight: bold;
+        position: relative;
+        top: 4.5px;
+        left: -4px;
+        }
+
+.lihover-left div span a:hover{
+  color:#FF7300;
+}
+
+.lihover-right{ 
+width: 250px;
+min-height: 335px;
+}
+
+.right-pic{ 
+display: block;
+margin:20px 20px 0 0;
+cursor: pointer;
+}
+
+

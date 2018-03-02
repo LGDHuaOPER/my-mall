@@ -1,0 +1,153 @@
+.main{ 
+	width:1000px;
+	margin:30px auto 0;
+}
+
+.main h2{
+	color:#000;
+	font-size:18px;
+}
+.main-part{
+	border:1px solid #f0f0f0;
+	margin-top:15px;
+	position:relative;
+}
+
+.main-part>div{
+}
+
+.bill{ 	
+	border-bottom:1px solid #f0f0f0;
+	padding-bottom:30px;
+}
+
+.bill h3{
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	font-family:"ËÎÌו";
+	padding:10px 0 0 15px;
+	margin-bottom:25px;
+}
+
+.user .address{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	padding-left:50px;
+}
+
+.user span{
+	padding-left:30px;
+}
+
+.two,.three,.hide-address{
+	display:none;
+}
+
+.more-address,.hide-address{
+	margin-left:18px;
+	position:relative;
+	top:20px;
+	cursor:pointer;
+	color:#000;
+}
+
+.method a{
+	display:inline-block;
+	width:120px;
+	height:40px;
+	border:1px solid #ccc;
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	margin-right:20px;
+}
+
+.method a:hover,.method .active{
+	border:1px solid #f00;
+	color:#f00;
+}
+
+.list h4{
+	float:right;
+padding:25px 50px 0 0;
+color:#000;
+cursor:pointer;
+text-decoration:underline;
+}
+
+.list h4:hover{
+	color:#f00;
+}
+
+li{ 
+	width:900px;
+	height:100px;
+	position:relative;
+	left:50px;
+	background-color:#F3FBFE;
+	border-bottom:5px solid #fff;
+}
+
+li img{ 
+	display:inline-block;
+	float:left;
+	width:70px;
+	height:70px;
+	margin-top:15px;
+	padding-left:10px;
+}
+
+li>span{
+	display:inline-block;
+	float:right;
+	height:70px;
+	margin:15px 20px 0;
+	padding:0 15px;
+}
+
+.invoice span{ 
+	padding:0 15px;
+}
+
+.total{ 
+	width:1000px;
+	height:35px;
+	line-height:35px;
+	margin-bottom:150px;
+}
+
+.price span{ 
+	color:#f00;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.submit{
+	height:35px;
+	width:105px;
+	border:1px solid #E33A3D;
+	background-color:#E33D3F;
+	color:#fff;
+	font-size:17px;
+	text-align:center;
+	border-radius:3px;
+	letter-spacing:2px;
+	cursor:pointer;
+	margin-left:50px;
+}
+
+.submit:hover{ 
+background-color:#EE474E;
+}
+
+
+
+
+
+
+
+
+
+

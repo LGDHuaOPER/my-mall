@@ -1,0 +1,332 @@
+.middle{
+	height:40px;
+	background:linear-gradient(#FFFEFE,#E1E0E0);
+}
+
+.hidden{
+	margin-left:16.5%;
+	display:none;
+}
+
+.hidden2{
+	margin-left:22%;
+	display:none;
+}
+
+.hidden input,.hidden2 input{
+	height:20px;
+	margin-top:10px;
+	margin-right:5px;
+	text-align:center;
+}
+
+.main-left{
+	width:15%;
+	height:830px;
+	border:1px solid #D3D1D1;
+	margin-top:15px;
+	background:#fff;
+}
+
+.main-right{
+	width:84%;
+	height:830px;
+	border:1px solid #D3D1D1;
+	margin-top:15px;
+	overflow:hidden;
+	color:#000;
+	background:#fff;
+}
+
+.left-title{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	color:#0088D1;
+	font-size:16px;
+	background:linear-gradient(#FFFEFE,#E1E0E0);
+	letter-spacing:2px;
+}
+
+.main-left li{
+	height:46px;
+	line-height:46px;
+	border-bottom:1px solid #D3D1D1;
+	color:#000;
+	text-align:left;
+	font-size:16px;
+	cursor:pointer;
+	text-indent:50px;
+}
+
+.main-left .active{
+	color:#fff;
+	background:linear-gradient(#9ED9F7,#399ACC);
+}
+
+.main-left img{
+	width:30px;
+	height:30px;
+	position:relative;
+	top:8px;
+	right:5px;
+}
+
+.users-content,.goods-content,.orders-content{
+	height:675px;
+}
+
+.common{
+	height:46px;
+	line-height:46px;
+	border-bottom:1px solid #D3D1D1;
+	color:#fff;
+	background:linear-gradient(#9ED9F7,#399ACC);
+	font-size:16px;	
+}
+
+.users-head span{
+	display:inline-block;
+	width:7%;
+	text-align:center;
+}
+
+.users-head .mail,.users-head .tel,.users-head .operation{
+	width:12%;
+}
+
+.users-head .address{
+	width:25%;
+}
+
+.users-li>span{
+	display:inline-block;
+	width:7%;
+	text-align:center;
+	padding:10px 0;
+}
+
+.users-li .id{
+	text-align:left;
+	text-indent:45px;
+}
+
+.users-li .mail,.users-li .tel,.users-li .operation{
+	width:12%;
+}
+
+.users-li .address{
+	width:25%;
+}
+
+.users-li .operation span{
+	cursor:pointer;
+}
+
+.users-li .operation span:hover{
+	color:#f00;
+}
+
+.users-bottom span{
+display:inline-block;
+	width:7%;
+	text-align:center;
+	margin-left:13px;
+}
+
+.users-bottom .delete-select:hover{
+	color:#f00;
+	cursor:pointer;
+}
+
+.goods-head span{
+	display:inline-block;
+	width:5%;
+	text-align:center;
+}
+
+.goods-head .id{
+	width:7%;
+}
+
+.goods-head .imgaddress,.goods-head .point,.goods-head .operation{
+	width:10%;
+}
+
+.goods-head .describe,.goods-head .name{
+	width:22%;
+}
+
+.goods-content .active{
+	background-color:#FFF4E8;
+}
+
+.goods-li>span{
+	display:inline-block;
+	width:5%;
+	text-align:center;
+		padding:10px 0;
+}
+
+.goods-li .imgaddress,.goods-li .point,.goods-li .operation{
+	width:10%;
+}
+
+.goods-li .describe,.goods-li .name{
+	width:22%;
+}
+
+.goods-li .id{
+	text-align:left;
+	margin-left:40px;
+	text-indent:5px;
+}
+
+.goods-li .operation span{
+	padding:0 5px;
+	cursor:pointer;
+}
+
+.goods-li .operation span:hover{
+	color:#f00;
+}
+
+.goods-bottom span{
+display:inline-block;
+	width:7%;
+	text-align:center;
+	margin-left:12px;
+}
+
+.goods-bottom .delete-select2:hover,.goods-bottom .add-goods:hover,.goods-bottom .upload-goods:hover,.goods-bottom .upload-jsps:hover{
+	color:#f00;
+	cursor:pointer;
+}
+
+.orders-head span{
+	display:inline-block;
+	width:7%;
+	text-align:center;
+}
+
+.orders-head .content{
+	width:40%;
+}
+
+.orders-head .time,.orders-head .operation{
+	width:15%;
+}
+
+.orders-content .active{
+	background-color:#FFF4E8;
+}
+
+.orders-li>span{
+display:block;
+float:left;
+height:120px;
+margin-top:15px;
+}
+
+.orders-li .name{
+width:7%;	
+text-align:center;
+}
+
+.orders-li .time{
+	width:16%;
+text-align:center;
+text-indent:20px;
+}
+
+.orders-li .operation{
+	width:14%;
+text-align:center;
+text-indent:40px;
+}
+
+.orders-li .payment{
+	width:7%;
+text-align:center;
+text-indent:20px;
+}
+
+.orders-li .content{
+text-align:center;
+width:40%;
+}
+
+.orders-li .id{
+width:7%;
+text-indent:45px;	
+}
+
+.orders-li .bill{
+width:7%;
+text-align:center;
+text-indent:20px;	
+}
+
+.orders-li .operation span{
+	padding:0 10px;
+	cursor:pointer;
+}
+
+.orders-li .operation span:hover{
+	color:#f00;
+}
+
+.orders-bottom span{
+display:inline-block;
+	width:7%;
+	text-align:center;
+	margin-left:12px;
+}
+
+.orders-bottom .delete-select2:hover{
+	color:#f00;
+	cursor:pointer;
+}
+
+.goods-bottom form{
+	display:none;
+}
+
+#submit{
+	color:#fff;
+	background-color:#FF8000;
+	padding:5px 10px;
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	border-radius:3px;
+	position:relative;
+	right:40px;
+	cursor:pointer;
+}
+
+#upfile{
+	color:#000;
+	font-size:14px;
+}
+
+.page{
+	height:61px;
+    font-size:15px;
+    line-height:61px;
+    text-align:center;
+}
+
+.page a{
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

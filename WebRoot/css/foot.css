@@ -1,0 +1,36 @@
+.footer{
+	clear: both;
+	height: 120px;
+	background: #d4d4d4;
+	text-align: center;
+	line-height: 24px;
+	padding: 35px 0;
+	margin-top: 60px;
+	color: #000;
+	font-size: 13px;
+}
+
+.footer i{
+	font-style: normal;
+	margin: 0 5px;
+}
+
+.footer p a{
+	color: #000;
+}
+
+.footer p a:hover{
+	color: #f00;
+}
+
+.web{
+	padding-top:30px;
+	 }
+
+.web img{
+	margin: 0 12px;
+}
+
+.copy-right{
+	font-family:Arial, Helvetica, sans-serif,"����";
+}

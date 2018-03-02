@@ -1,0 +1,281 @@
+
+.main-wrap{ 
+  width:1020px;
+  margin:0 auto;
+  position:relative;
+ }
+ 
+ .main{ 
+ background-color: #F0F0F0;
+  width:1020px;
+  position:absolute;
+ }
+
+.main-top{
+padding: 10px 0 10px 0;
+}
+
+.main-top a{ 
+font-family: serif;
+font-size: 13px;
+ }
+
+ .main-middle{ 
+height: 520px;
+border: 1px solid #CCCCCC;
+  background-color: #fff;
+  }
+
+ .main-middle-left{ 
+width: 307px;
+height: 100%;
+border-right: 2px solid #ccc;
+   }
+
+.main-middle-left .big-img{ 
+display: block;
+width: 280px;
+height: 300px;
+margin: 55px auto 0;
+cursor:pointer; 
+ }
+
+.main-middle-left .small-img{
+height: 54px;
+width: 280px;
+margin: 55px auto 0; 
+}
+
+.main-middle-left .small-img a{ 
+display: inline-block;
+width: 52px;
+height: 52px;
+border: 1px solid #CCCCCC;
+ }
+
+.main-middle-left .small-img a img{ 
+display: inline-block;
+width: 52px;
+height: 52px;
+ }
+ 
+ .main-middle-left .small-img .active{ 
+ border: 1px solid blue;
+  }
+
+   .main-middle-right{ 
+width: 709px;
+   }
+
+   .main-middle-right .title{ 
+font-size: 16px;
+font-weight: bold;
+margin-top: 25px;
+margin-bottom: 30px;
+padding: 0 30px 0;
+    }
+
+.main-middle-right .price,.main-middle-right .discount{ 
+padding-left: 30px;
+margin-top: 10px;
+    }
+
+    .main-middle-right .price span{
+      color:#f00;
+      font-size: 20px;
+}
+
+ .main-middle-right .discount span{
+      color: #f00;
+      border:1px solid #f00;
+      cursor: pointer;
+      padding: 0 3px 0;
+      margin-left: 5px;
+      margin-right: 15px;
+}
+
+.main-middle-right .option{
+background-color: #F2F2F2;
+width: 650px;
+padding-bottom: 30px;
+margin: 20px auto 0;
+}
+
+.option-color,.option-style,.option-num{ 
+padding-top: 20px;
+ }
+
+ .option-color span,.option-style span{
+ display: inline-block;
+ background-color: #fff; 
+border:1px solid #CCCCCC;
+padding: 0px 20px;
+margin-left: 10px;
+cursor: pointer;
+  }
+
+  .option-color .active,.option-style .active{ 
+border:1px solid blue;
+   }
+
+   .option-num .big-span{ 
+    display: inline-block;
+border:1px solid #CCCCCC;
+height: 30px;
+border-radius: 5px;
+margin-left: 10px;
+text-align: center;
+    }
+
+   .option-num .big-span .reduce, .option-num .big-span .add{ 
+    display: inline-block; 
+    height: 30px;
+  font-weight: bold;
+  width: 30px;
+  cursor: pointer;
+}
+
+.option-num .big-span .reduce:hover, .option-num .big-span .add:hover{ 
+ background-color: #ccc;
+}
+
+   .option-num .big-span .add{    
+   border-left: 1px solid #ccc;
+}
+
+   .option-num .big-span .reduce{   
+   border-right: 1px solid #ccc;
+}
+
+ 
+
+   .option-num .big-span .num{  
+    display: inline-block;
+   height: 30px;
+   background-color: #fff;
+   width: 35px;
+}
+
+.btn-area{ 
+width: 280px;
+margin: 40px auto;
+}
+
+.btn-area button{ 
+display: block;
+height: 38px;
+background-color: #FF8C00;
+color: #fff;
+width: 118px;
+text-align: center;
+font-family:"Microsoft Yahei";
+border-radius: 3px;
+cursor: pointer;
+letter-spacing: 1px;
+ }
+
+ .btn-area button:hover{ 
+background-color: #ff6f00;
+  }
+
+.main-bottom{ 
+margin-top: 30px;
+ }
+
+ .main-bottom-left{ 
+width: 208px;
+border:1px solid red;
+background-color: #fff;
+border:1px solid #ccc;
+  }
+
+ .main-bottom-left h3{ 
+ height: 40px;
+ text-align: center;
+ background-color:#F3F3F3;
+ border-top: 3px solid #1D86CF;
+ border-bottom:1px solid #ccc;
+ line-height: 40px;
+ font-size: 15px; 
+ font-weight: bold;
+  } 
+
+.img-ul li{ 
+height: 100px;
+line-height: 18px;
+}
+
+.img-ul li a{ 
+color: #A5A5C2;
+}
+
+.img-ul li a:hover{ 
+color:#FF6800;
+}
+
+.img-ul li img{ 
+display: block;
+width: 60px;
+height: 60px;
+float: left;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+.img-desrciption{
+padding-top: 13px;
+font-size: 13px;
+}
+
+.img-price{ 
+padding-top: 10px;
+font-size: 13px;
+color: #DE0000;
+}
+
+.main-bottom-right{ 
+width: 790px;
+border: 1px solid #ccc;
+height: 744px;
+background-color: #fff;
+ }
+
+ .two-btn{ 
+height: 43px;
+border-bottom: 1px solid #ccc;
+line-height: 43px;
+font-size: 15px;
+  }
+
+  .btn-1,.btn-2{ 
+width: 395px;
+text-align: center;
+cursor: pointer;
+background-color: #F1F1F1;
+color:#000;
+   }
+
+ .two-btn .active{ 
+background-color: #0479CA;
+color: #fff;
+    }
+
+.two-btn-area{ 
+height: 700px;
+width: 790px;
+overflow: hidden;
+     }
+
+.two-btn-area ul{ 
+height: 700px;
+width: 1580px;
+position: relative;
+top: 0;
+left: -0px;
+ }
+
+ .two-btn-area ul li{ 
+height: 700px;
+width: 790px;
+float: left;
+  }

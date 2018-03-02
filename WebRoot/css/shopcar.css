@@ -1,0 +1,200 @@
+
+/* �ڶ����� */
+.main-part{ 
+margin-top: 30px;
+ }
+
+.alert{ 
+height: 28px;
+border: 1px solid #EDD28B;
+background-color: #FFFDEE;
+color:#FF7700;
+line-height: 28px;
+display: none;
+margin-top:15px;
+padding:10px 0;
+ }
+
+.alert span{ 
+padding-left: 25px;
+  }
+
+.alert .login-btn{
+width:70px;
+text-align:center;
+font-family: "Microsoft Yahei";
+color: #fff;
+background-color: #E2383b;
+border-radius: 3px;
+margin-right:450px;
+   }
+   
+   .alert .login-btn:hover{
+   background-color:#ff4043;
+   }
+
+.main-title{ 
+height: 28px;
+line-height:28px;
+background-color:#F3F3F3;
+border: 1px solid #E0E0E0;
+margin-top:15px;
+font-size:16px;
+padding:10px 0;
+    }
+    
+#select-all{
+	margin-left:15px;
+	position:relative;
+	top:1px;
+}
+
+#select-all2{
+	margin-left:15px;
+	position:relative;
+	top:1px;
+}
+    
+.main-title span{
+	padding:0 5px;
+}
+
+.price{
+	margin-left:300px;
+}
+
+.number,.goods,.subtotal,.operation{ 
+	margin-left:50px;
+}
+
+.goods-part{ 
+	width:100%;
+	min-height:450px;
+	margin-top:30px;
+	border-top:3px solid #aaa;
+	position:relative;
+}
+
+ul li{
+	margin-top:20px;
+	height:80px;
+}
+
+ul li>div{
+	float:left;
+	height:40px;
+	padding:30px 0 10px;
+}
+
+ul li>.image{
+	margin-top:15px;
+}
+
+.selected{ 
+	width:30px;
+	margin-left:6px;
+}
+
+.goodsName{
+	position:relative;
+	top:-20px;
+	width:380px;
+	padding-left:20px;
+}
+
+.goodsPrice{
+	width:120px;
+	text-indent:5px;
+	font-weight:bold;
+}
+
+.goods_Number{
+	width:120px;
+}
+
+.add-and-reduce{ 
+display: inline-block;
+border:1px solid #CCCCCC;
+height: 30px;
+border-radius: 5px;
+text-align: center;
+background-color:#fff;
+}
+
+.add,.reduce{
+	display: inline-block; 
+    height: 30px;
+  font-weight: bold;
+  width: 30px;
+  cursor: pointer;
+  background-color: #F2F2F2;
+}
+
+.add:hover,.reduce:hover{
+	background-color: #ccc;
+}
+
+.reduce{
+	margin-right:13px;
+	border-right:1px solid #ccc;
+}
+
+.add{
+	margin-left:13px;
+	border-left:1px solid #ccc;
+}
+
+.subTotal{
+width:120px;
+text-indent:5px;
+font-weight:bold;
+}
+
+.delete{
+	width:120px;
+	text-indent:35px;
+	cursor:pointer;
+}
+
+.delete:hover{ 
+	color:#f00;
+}
+
+.main-operation{ 
+height: 28px;
+width:100%;
+line-height:28px;
+border: 1px solid #E0E0E0;
+font-size:16px;
+padding:10px 0;
+position:absolute;
+bottom:-70px;
+    }
+    
+   .delete-select{
+   padding-left:30px;
+   }
+   
+ #billing{ 
+ display:inline-block;
+ height:30px;
+ padding:10px 0;
+ color:#fff;
+ width:90px;
+ position:relative;
+ background-color:#f00;
+ top:-11px;
+ text-align:center;
+ letter-spacing:2px;
+ font-size:17px;
+ }
+
+.goods-part2{ 
+	width:100%;
+	min-height:350px;
+	padding-top:100px;
+	margin-top:30px;
+	border-top:3px solid #aaa;
+	font-size:30px;
+	text-align:center;
+}

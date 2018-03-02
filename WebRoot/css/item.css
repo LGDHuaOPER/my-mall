@@ -1,0 +1,293 @@
+.main{ 
+width:1020px;
+margin:0 auto;
+}
+/*主体部分  右侧上部*/
+.options-container{ 
+width: 810px;
+overflow: hidden;
+margin-top: 20px;
+min-height: 315px;
+}
+
+.options-container ul li{ 
+border-bottom: 1px dotted #D9D9D9;
+margin-left: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.options-container ul li b,.options-container ul li span{ 
+display: inline-block;
+}
+
+.options-container ul li b{ 
+width: 80px;
+text-align: right;
+font-weight: normal;
+padding-right: 40px;
+color: #999;
+font-family: "宋体";
+font-size: 13px;
+}
+
+.options-container ul li span a{ 
+color:#1D7AD9;
+font-size: 13px;
+margin-right: 25px;
+height: 18px;
+line-height: 18px;
+}
+
+.options-container ul li span a:hover{ 
+  color:#F00;
+}
+
+.options-container ul li .no-limit a{ 
+background-color:#1D7AD9;
+color: #fff;
+}
+
+.options-container ul li .no-limit a:hover{ 
+color: #fff;
+}
+
+.options-container ul li select{ 
+border: 1px solid #BFBFBF;
+padding:2px 0;
+}
+
+.options-container ul .last-li{ 
+height: 18px;
+line-height: 18px;
+background-color: #F5F5F5;
+margin-top: 15px;
+border: 1px solid #D9D9D9;
+color: #000;
+}
+
+.options-container ul .last-li b{ 
+text-align: left;
+text-indent: 15px;
+color: #000;
+padding-top: 1px;
+}
+
+.options-container ul .last-li form{ 
+margin-left: -70px;
+ }
+
+.options-container ul .last-li form .form-group{ 
+  float: left;
+  position: relative;
+  top: -2px;
+  
+  margin-left: 10px;
+}
+
+.options-container ul .last-li>i{
+font-size: 13px; 
+font-style: normal;
+padding-right: 80px;
+}
+
+
+/*主体部分 左侧*/
+.main-list{ 
+width: 208px;
+position: absolute; 
+overflow: hidden;
+background-color: #F3F3F3;
+border: 1px solid #D7D7D7;
+}
+
+.main-list h3{ 
+  font-family: "宋体";
+  font-size: 14px;
+  color: #555;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom:1px solid #D7D7D7; 
+  letter-spacing: 2px;
+}
+
+.main-list h4{ 
+  font-family: "宋体";
+  font-size: 13px;
+  color: #555;
+  height: 25px;
+  padding-top: 5px;
+  text-indent: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.list-ul{ 
+width: 208px;
+border-bottom: 1px solid #D7D7D7; 
+}
+
+.list-ul li{ 
+display: inline-block;
+width: 60px;
+font-family: "宋体";
+  font-size: 13px;
+  color: #555;
+  margin-left:25px;
+}
+
+.img-ul{ 
+background-color: #fff;
+}
+
+.img-ul li{ 
+height: 100px;
+line-height: 18px;
+}
+
+.img-ul li a{ 
+color: #A5A5C2;
+}
+
+.img-ul li a:hover{ 
+color:#FF6800;
+}
+
+.img-ul li img{ 
+display: block;
+width: 60px;
+height: 60px;
+float: left;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+.img-desrciption{
+padding-top: 13px;
+font-size: 13px;
+}
+
+.img-price{ 
+padding-top: 10px;
+font-size: 13px;
+}
+
+
+
+/*主体部分  右侧下部*/
+.main-right{ 
+clear: both;
+width:796px;
+min-height: 600px;
+}
+
+.main-right ul{ 
+width: 726px;
+margin: 0 auto;
+min-height: 600px;
+}
+
+.main-right ul li{ 
+width: 200px;
+height: 320px;
+display: inline-block;
+float: left;
+margin:30px 20px 0;
+}
+
+.main-right ul li .box{ 
+float: left;
+ }
+
+ .main-right ul li .box .price{
+  color:#D70000;
+  font-weight:bold;
+  padding-right:15px;
+ }
+
+.main-right ul li .box .evaluate{ 
+color:#3900D1;
+font-weight:bold;
+ }
+
+ .main-right ul li .box .addcar .imooc-icon{ 
+ color:#397ABE;
+ padding-right:2px;
+  }
+
+.main-right ul li img{ 
+width: 200px;
+height: 200px;
+}
+
+.main-right ul li .li-text{ 
+  display: block;
+font-size: 13px;
+line-height: 20px;
+height:25px;
+color: #000;
+margin-top: 10px;
+}
+
+.main-right ul li .li-style{ 
+}
+
+
+.main-right ul li button{ 
+width: 90px;
+height: 24px;
+background-color: #fff;
+color: #397ABE;
+border: 1px solid #397ABE;
+cursor: pointer;
+border-radius: 2px;
+}
+
+.main-right ul li button:hover{ 
+background-color: #F3F3F3;
+}
+
+.main-right .page-icon{ 
+height: 30px;
+clear: both;
+position: relative;
+top: 60px;
+}
+
+.page-icon{
+  margin:20px 0 0 0;
+  font-size:0;/*修复行内元素之间空隙间隔*/
+  text-align:center;
+}
+
+.page-disabled,.page-next{ 
+  display: inline-block;
+    border:1px solid #ccc;
+  width: 60px;
+  text-align: center;
+  height: 30px;
+  font-size:14px;/*修复行内元素之间空隙间隔*/
+  margin-right:10px;
+line-height: 30px;
+cursor: pointer;
+}
+
+.page-icon a{
+  border:1px solid #ccc;
+  padding:4px 15px 5px;
+  font-size:14px;/*修复行内元素之间空隙间隔*/
+  margin-right:10px;
+  text-decoration:none;
+  color:#000;
+}
+
+.page-icon a:hover,.page-icon .page-current,.page-next:hover{
+  color:#fff;
+  background-color:#2266BB; 
+  
+}
+.page-disabled{
+  color:#ccc;
+}

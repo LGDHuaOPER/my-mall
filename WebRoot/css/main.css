@@ -1,0 +1,188 @@
+
+/*  第三部分  */
+
+.thirdPart{ 
+clear: both;
+height: 935px;
+}
+
+.third-title{ 
+height: 45px;
+}
+
+.title-one{ 
+margin-top:354px;
+}
+
+.title-two{ 
+margin-top:18px;
+}
+
+.third-title h3{ 
+font-family: "微软雅黑";
+font-size: 24px;
+line-height: 45px;
+color: #1F0000;
+text-indent:15px;
+}
+
+.title-img{ 
+width: 45px;
+height: 45px;
+}
+
+ .more a{ 
+ display: block;
+height: 20px;
+font-family: "宋体";
+font-size: 12px;
+text-align: right;
+margin-bottom: 5px;
+}
+
+.more a:hover{ 
+text-decoration: underline;
+color: #6B6B6B;
+}
+
+.third-goods{ 
+	height: 400px;
+}
+
+.goods-left{
+ width: 210px;
+ overflow: hidden;
+ position: relative;
+}
+
+.goods-left-ul{ 
+width: 630px;
+position: relative;
+top: 0;
+left:-0px;
+}
+
+.goods-left-ul li{ 
+float: left;
+}
+
+.goods-left-ul li img{ 
+width: 210px;
+height: 400px;
+display: block;
+}
+
+.left-num{
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.left-num a{
+	width: 24px;
+	height: 6px;
+	background-color: #fff;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.left-num .active{ 
+background-color: #FF7700;
+}
+
+.goods-right{
+
+	width: 809px;
+	height: 396px;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-bottom: 3px solid #ff7201;
+}
+
+.right-top{ 
+height: 280px;
+width:809px;
+}
+
+.right-top-item{ 
+float: left;
+width: 201px;
+border-right: 1px solid #999;
+height: 279px;
+border-bottom: 1px solid #999;
+}
+
+.right-top-item .top-item-img{ 
+display: block;
+width: 140px;
+height: 160px;
+margin: 0 auto;
+margin-top: 25px;
+}
+
+.right-top-item h3{ 
+margin-top: 20px;
+text-align: center;
+font-family: "微软雅黑";
+font-size: 16px;
+font-weight: bold;
+}
+
+.right-top-item h4{ 
+margin-top: 0px;
+text-align: center;
+font-family: "微软雅黑";
+font-size: 14px;
+font-weight: bold;
+color: #ff7300;
+}
+
+.right-bottom-item{ 
+width: 201px;
+border-right: 1px solid #999;
+float: left;
+height: 117px;
+}
+
+.right-bottom-item a{ 
+display: block;
+width: 100px;
+height:116px;
+height: 118px;
+overflow: hidden;
+}
+
+.right-bottom-item a img{ 
+	display: block;
+width: 80px;
+height: 62px;
+margin:0 auto;
+margin-top: 28px;
+}
+
+.right-bottom-item h3{ 
+	margin-top: 10px;
+clear: both;
+width: 93px;
+height: 60px;
+float: right;
+line-height: 20px;
+font-family: "宋体";
+font-size: 14px;
+overflow: hidden;
+}
+
+.right-bottom-item h4{ 
+	margin-top: 10px;
+	clear: both;
+float: right;
+width: 93px;
+height: 20px;
+font-family: "微软雅黑";
+font-size: 16px;
+text-align: center;
+}
+

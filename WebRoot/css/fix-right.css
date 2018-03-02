@@ -1,0 +1,49 @@
+.fix-part{
+	position: fixed;
+	right: 0;
+	top:400px;
+}
+
+.fix-part div{ 
+width: 40px;
+height: 40px;
+padding: 5px;
+margin-bottom: 3px;
+color: #fff;
+line-height: 20px;
+text-align: center;
+cursor: pointer;
+border-radius:4px;
+ }
+
+ .fix-part div:hover{ 
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px;
+  }
+
+ .person{ 
+background-color: #FF002A;
+  }
+
+.cart{ 
+background-color: #9379F6;
+  }
+
+  .focus{ 
+background-color:#96B000;
+  }
+
+ .history{ 
+background-color:#A1745F;
+  }
+
+
+ .problem{ 
+background-color:#FF4200;
+margin-top:40px;
+  }
+
+ .return-top{ 
+background-color:#FF4200;
+  }

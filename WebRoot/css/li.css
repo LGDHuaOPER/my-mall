@@ -1,0 +1,130 @@
+.main{ 
+    width: 1020px;
+    height: 100%;
+    margin:0 auto;
+}
+
+.main-list{ 
+width: 208px;
+min-height:335px;
+position: absolute; 
+overflow: hidden;
+background-color: #F3F3F3;
+border: 1px solid #D7D7D7;
+}
+
+.main-list h3{ 
+    font-family: "宋体";
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom:1px solid #D7D7D7; 
+    letter-spacing: 2px;
+}
+
+.main-list h4{ 
+    font-family: "宋体";
+    font-size: 13px;
+    color: #555;
+    height: 25px;
+    padding-top: 5px;
+    text-indent: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.list-ul{ 
+width: 208px;
+border-bottom: 1px solid #D7D7D7; 
+}
+
+.list-ul li{ 
+display: inline-block;
+width: 60px;
+font-family: "宋体";
+    font-size: 13px;
+    color: #555;
+    margin-left:25px;
+}
+
+.main-right{
+width: 810px;
+min-height: 600px;
+}
+
+.main-right h3{ 
+height: 35px;
+line-height: 35px;
+font-family:  "宋体";
+font-size: 16px;
+font-weight: bold;
+text-indent: 18px;
+color:#000;
+border-bottom: 2px solid #CCCCCC;
+}
+
+.main-right .goods{ 
+height: 600px;
+}
+
+.goods-top,.goods-bottom{ 
+height: 300px;
+width: 800px;
+margin: 0 auto;
+}
+
+.top-item,.bottom-item{ 
+    float: left;
+width: 200px;
+height: 300px;
+}
+
+.item-img{ 
+display: block;
+width: 200px;
+height: 160px;
+overflow: hidden;
+}
+
+.item-img img{
+display: block;
+width: 170px;
+height: 135px;
+margin:25px auto 0; 
+}
+
+.item-description { 
+display: block;
+font-family: "Microsoft Yahei";
+font-size: 13px;
+width: 170px;
+margin: 10px auto 0;
+height: 45px;
+overflow: hidden;
+line-height: 20px;
+
+}
+
+.item-price{ 
+font-family: "Microsoft Yahei";
+font-size: 13px;
+display: block;
+width: 170px;
+height: 20px;
+margin: 5px auto 0;
+color: #D4109D;
+font-weight: bold;
+}
+
+
+.item-evaluate{ 
+font-family: "Microsoft Yahei";
+font-size: 13px;
+display: block;
+width: 170px;
+height: 20px;
+margin: 5px auto 0;
+}

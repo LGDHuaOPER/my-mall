@@ -1,0 +1,47 @@
+.head{
+	height:85px;
+	background:linear-gradient(#4AAFE5,#07608D);
+}
+
+.head .left .logo{
+	height:85px;
+	width:120px;
+	font-size:40px;
+	color:#fff;
+	line-height:85px;
+	float:left;
+	margin-left:130px;
+}
+
+.title{
+	float:left;
+	height:85px;
+	color:#fff;
+	line-height:85px;
+	margin-left:30px;
+	font-size:20px;
+}
+
+.head .right{
+		height:85px;
+	color:#fff;
+	line-height:85px;
+	font-size:20px;
+}
+
+.head .right img{
+	position:relative;
+	top:6px;
+	right:5px;
+}
+
+.head .right .exit{
+	display:inline-block;
+	padding:0 15px;
+	cursor:pointer;
+	color:#fff;
+}
+
+.head .right .exit:hover{
+	color:#FF8000;
+}
